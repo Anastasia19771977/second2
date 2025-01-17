@@ -1,0 +1,303 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: rgb(44, 44, 44);
+    position: sticky;
+    top: 0;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.container__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 36px 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo__img {
+    margin-right: 10px;
+}
+
+.nav__list {
+    display: flex;
+    list-style: none;
+}
+
+.nav__item {
+    margin-right: 63px;
+    color: rgb(228, 228, 228);
+    font-family: Nico Moji;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.nav__item:hover {
+    color: rgb(224, 156, 255);
+    cursor: pointer;
+}
+
+.logo__title {
+    color: rgb(255, 255, 255);
+    font-family: Nico Moji;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.hero-block {
+    background: rgb(55, 55, 55);
+}
+
+.container__hero-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 66px 0 108px;
+}
+
+.hero-block__title {
+    margin-bottom: 30px;
+    color: rgb(228, 228, 228);
+    font-family: Overlock;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 88px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.hero-block__text {
+    margin-bottom: 30px;
+    color: rgb(228, 228, 228);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.hero-block__link {
+    border-radius: 6px;
+    box-shadow: 0px 2px 13px 0px rgb(165, 153, 255);
+    background: linear-gradient(135.00deg, rgb(92, 77, 206), rgb(66, 51, 180) 100%);
+    color: rgb(0, 0, 0);
+    font-family: Nico Moji;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 17px 20px;
+    text-decoration: none;
+}
+
+.hero-block__content {
+    max-width: 428px;
+}
+
+.about {
+    background: rgb(62, 62, 62);
+}
+
+.about__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container__about {
+    padding: 70px 0 143px;
+}
+
+.about__title {
+    color: rgb(228, 228, 228);
+    font-family: Nico Moji;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 97px;
+}
+
+.content__title {
+    color: rgb(228, 228, 228);
+    font-family: Nico Moji;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 72px;
+}
+
+.line__out {
+    width: 356px;
+    height: 10px;
+    background: rgb(230, 82, 226);
+}
+
+.line__in_f {
+    width: 287px;
+    height: 10px;
+    background: rgb(44, 44, 44);
+}
+
+.line__in_t {
+    width: 226px;
+    height: 10px;
+    background: rgb(44, 44, 44);
+}
+
+.line__in_v {
+    width: 200px;
+    height: 10px;
+    background: rgb(44, 44, 44);
+}
+
+.content__text {
+    color: rgb(228, 228, 228);
+    font-family: Nico Moji;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.content__item {
+    margin-bottom: 35px;
+}
+
+.content__list {
+    list-style: none;
+}
+
+.video {
+    background: rgb(44, 44, 44);
+    ;
+}
+
+.container__video {
+    padding: 70px 0 94px;
+}
+
+.video__title {
+    color: rgb(228, 228, 228);
+    font-family: Nico Moji;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 46px;
+}
+
+.video__video {
+    width: 100%;
+    height: 561px;
+    border: 50px rgb(65, 65, 65) solid;
+    border-radius: 29px;
+    box-sizing: border-box;
+}
+
+.gallery {
+    background-color: rgb(62, 62, 62);
+    ;
+    padding: 65px 0 70px
+}
+
+.gallery__title {
+    color: rgb(228, 228, 228);
+    font-family: Nico Moji;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+.gallery__item {
+    width: 32.5%;
+    margin: 5px;
+}
+
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery__list {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.footer {
+    background: rgb(44, 44, 44);
+}
+
+.container__footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.footer__list {
+    display: flex;
+}
+
+.footer__title {
+    color: rgb(228, 228, 228);
+    font-family: Nico Moji;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.footer__text {
+    color: rgb(255, 255, 255);
+    font-family: Nico Moji;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 164.06%;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+.footer__list {
+    list-style: none;
+}
+
+.footer__item {
+    margin-right: 40px;
+}
